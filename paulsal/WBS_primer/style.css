@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px red solid; */
+}
+
+body {
+  /* background-color: darksalmon; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#dude {
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Bungee", "Franklin Gothic", Arial, sans-serif;
+  color: white;
+  font-size: 64px;
+  text-shadow: 5px 5px 10px magenta;
+  margin-bottom: 8px;
+}
+
+h2 {
+  color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: -1px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+header,
+nav,
+footer {
+  background-color: black;
+  margin: 5px 10px 0px 10px;
+  padding: 10px 20px 15px;
+  border-radius: 10px;
+}
+
+nav a,
+footer a {
+  background-color: black;
+  border-bottom: 0px;
+  border-radius: 0px;
+  padding: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  border-bottom: 1px solid magenta;
+}
+
+nav a:hover {
+  background-color: teal;
+  border-bottom: 1px black;
+  border-radius: 3px;
+  color: black;
+}
+
+main {
+  background-color: grey;
+  margin: 5px 10px 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  margin-right: 20px;
+  border-radius: 8px;
+  border-top: 2px solid turquoise;
+  border-left: 2px solid turquoise;
+  border-right: 2px solid teal;
+  border-bottom: 2px solid teal;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.466);
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: teal;
+  letter-spacing: 4px;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgb(255, 135, 255);
+}
+
+.synths {
+  text-decoration: none;
+  color: teal;
+}
+
+.synths:hover {
+  color: white;
+  text-shadow: 1px 1px 7px rgb(145, 0, 145);
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 0px;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+}
+
+img {
+  background-color: teal;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0px 10px 0px;
+}
+
+.article-text {
+  margin: 10px;
+}
+
+footer {
+    background-color: grey;
+}
+
+footer a {
+  font-size: 14px;
+  border: 0px;
+  background-color: grey;
+}
